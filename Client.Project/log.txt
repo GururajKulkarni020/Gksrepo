@@ -1,0 +1,86 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.Bloomberg:Client.Project >--------------------
+[INFO] Building Client.Project 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ Client.Project ---
+[INFO] Deleting D:\Bloomberg_project\Client.Project\Client.Project\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ Client.Project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ Client.Project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Bloomberg_project\Client.Project\Client.Project\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ Client.Project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Bloomberg_project\Client.Project\Client.Project\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ Client.Project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Bloomberg_project\Client.Project\Client.Project\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ Client.Project ---
+[INFO] Surefire report directory: D:\Bloomberg_project\Client.Project\Client.Project\target\surefire-reports
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.Bloomberg.Client.Project.ApplicationTests
+14:16:12.211 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:16:12.257 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:16:12.379 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.Bloomberg.Client.Project.ApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:16:12.430 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.Bloomberg.Client.Project.ApplicationTests], using SpringBootContextLoader
+14:16:12.445 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.Bloomberg.Client.Project.ApplicationTests]: class path resource [com/Bloomberg/Client/Project/ApplicationTests-context.xml] does not exist
+14:16:12.450 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.Bloomberg.Client.Project.ApplicationTests]: class path resource [com/Bloomberg/Client/Project/ApplicationTestsContext.groovy] does not exist
+14:16:12.455 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.Bloomberg.Client.Project.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:16:12.464 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.Bloomberg.Client.Project.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:16:12.616 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.Bloomberg.Client.Project.ApplicationTests]
+14:16:12.854 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\Bloomberg_project\Client.Project\Client.Project\target\classes\com\Bloomberg\Client\Project\Application.class]
+14:16:12.861 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.Bloomberg.Client.Project.Application for test class com.Bloomberg.Client.Project.ApplicationTests
+14:16:13.125 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.Bloomberg.Client.Project.ApplicationTests]: using defaults.
+14:16:13.127 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:16:13.247 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2892d68, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5ab956d7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3646a422, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@750e2b97, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e27aa33, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2e385cce, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2ddc9a9f, org.springframework.test.context.event.EventPublishingTestExecutionListener@298a5e20, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2a7f1f10, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@46cdf8bd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@f0c8a99, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@740cae06, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@26d9b808]
+14:16:13.316 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6e9175d8 testClass = ApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7d0b7e3c testClass = ApplicationTests, locations = '{}', classes = '{class com.Bloomberg.Client.Project.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@28eaa59a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@41fbdac4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@192d43ce, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@8dbdac1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+14:16:13.434 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-01-25 14:16:14.569  INFO 7420 --- [           main] c.B.Client.Project.ApplicationTests      : Starting ApplicationTests on dell with PID 7420 (started by dell user in D:\Bloomberg_project\Client.Project\Client.Project)
+2020-01-25 14:16:14.601  INFO 7420 --- [           main] c.B.Client.Project.ApplicationTests      : No active profile set, falling back to default profiles: default
+2020-01-25 14:16:21.910  INFO 7420 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 14:16:23.484  INFO 7420 --- [           main] c.B.Client.Project.ApplicationTests      : Started ApplicationTests in 10.02 seconds (JVM running for 13.235)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.196 s - in com.Bloomberg.Client.Project.ApplicationTests
+2020-01-25 14:16:24.613  INFO 7420 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ Client.Project ---
+[INFO] Building jar: D:\Bloomberg_project\Client.Project\Client.Project\target\Client.Project-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ Client.Project ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ Client.Project ---
+[INFO] Installing D:\Bloomberg_project\Client.Project\Client.Project\target\Client.Project-0.0.1-SNAPSHOT.jar to C:\Users\dell user\.m2\repository\com\Bloomberg\Client.Project\0.0.1-SNAPSHOT\Client.Project-0.0.1-SNAPSHOT.jar
+[INFO] Installing D:\Bloomberg_project\Client.Project\Client.Project\pom.xml to C:\Users\dell user\.m2\repository\com\Bloomberg\Client.Project\0.0.1-SNAPSHOT\Client.Project-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 45.926 s
+[INFO] Finished at: 2020-01-25T14:16:32Z
+[INFO] ------------------------------------------------------------------------
